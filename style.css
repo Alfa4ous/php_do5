@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.mt{
+    margin-top: 110px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.card{
+    width: 300px;
+}
+
+.card p{
+    margin-top: 15px;
+}
+
+.cat{
+    padding: 10px;
+    background-color: rgb(216, 252, 170);
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
